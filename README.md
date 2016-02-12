@@ -38,5 +38,5 @@ docker run -d -P ryanratcliff/dynamodb
 
 ### To startup with specific port exposed
 ```
-docker run -d p 8000:8000 ryanratcliff/dynamodb
+docker run -d -p 8000:8000 ryanratcliff/dynamodb
 ```
