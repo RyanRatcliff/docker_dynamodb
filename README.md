@@ -40,3 +40,8 @@ docker run -d -P ryanratcliff/dynamodb
 ```
 docker run -d -p 8000:8000 ryanratcliff/dynamodb
 ```
+
+### To startup with a mount point for persistent data
+```
+docker run -d -v /host/data/mount/point:/var/dynamodb_data ryanratcliff/dynamodb
+```
