@@ -1,4 +1,5 @@
 # Docker DynamoDB
+
 Supported tags
 * **latest** using version dynamodb_local_2019-02-04.tar.gz
 * **2015-07-16_1.0** using version dynamodb_local_2015-07-16_1.0.tar.gz
